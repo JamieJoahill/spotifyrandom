@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Spotify API</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-title dark">
+      <i class="fab fa-spotify"></i>
+      Spotify Random
+    </h1>
+    <h2 class="hero-heading hero-main-title">Listening is 
+      <span class="hero-heading-lower">everything</span>
+    </h2>
+    <p class="hero-text">70 million songs to discover</p>
+    <!-- <button class="btn">Create playlist</button> -->
+    <a class="btn" id="create-album">Create Random Album</a>
+    <span class="circle circle1"></span>
+    <span class="circle circle2"></span>
+    <span class="circle circle3"></span>
+    <span class="circle circle4"></span>
+  </div>
+  <div class="container" id="login">
+    <p class="form-desc">To continue, log in to Spotify.</p>
+    <form autocomplete="off">
+      <label>Email address or username</label>
+      <input placeholder="Email address or username">
+      <label>Password</label>
+      <input placeholder="Password">
+      <button class="btn login-btn">LOG IN</button>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
